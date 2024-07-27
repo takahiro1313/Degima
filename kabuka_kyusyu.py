@@ -6,6 +6,12 @@ import altair as alt # チャート可視化機能をインポート
 #取得する銘柄の名前とキーを変換する一覧を設定
 #東証などのシンボルはhttps://support.yahoo-net.jp/PccFinance/s/article/H000006603で検索できる
 tickers = {
+    'apple': 'AAPL',
+    'facebook': 'META',
+    'google': 'GOOGL',
+    'microsoft': 'MSFT',
+    'netflix': 'NFLX',
+    'amazon': 'AMZN',
     'FFG': '8354.T',
     '安川電機': '6506.T',
     '九州電力': '9508.T',
