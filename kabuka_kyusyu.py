@@ -49,7 +49,7 @@ def get_data(days, tickers):
 st.sidebar.write("株価の範囲指定") # サイドバーに表示
 ymin, ymax = st.sidebar.slider(
     '範囲を指定してください。',
-    0.0, 5000.0, (0.0, 6000.0)
+    0.0, 5000.0, (0.0, 6500.0)
 ) # サイドバーに表示
 
 df = get_data(days, tickers) # リクエストする企業一覧すべてと変換するtickersを引数に株価取得
